@@ -54,7 +54,7 @@ TinyGPSCustom hdop(gps, "GPGSA", 16); // $GPGSA sentence, 16th element
 TinyGPSCustom vdop(gps, "GPGSA", 17); // $GPGSA sentence, 17th element
 
 String FirmwareVer = {
-  "1.0"
+  "1.1"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/kaatrusenai/camp_a/main/M1.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/kaatrusenai/camp_b/main/M1.bin"
